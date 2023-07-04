@@ -14,5 +14,6 @@ public class OpenPageTest {
         List<WebElement> allLinks = driver.findElements(By.tagName("a"));
         System.out.println("Total links on the Wb Page: " + allLinks.size());
         allLinks.get(10).click();
+        driver.quit();
     }
 }
