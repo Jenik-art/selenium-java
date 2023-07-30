@@ -36,6 +36,8 @@ public class WebDriverContainer {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
+        String platform = System.getProperty("platform", "mac");
+
 
         capabilities.setBrowserName(browser.getBrowserName());
         capabilities.setPlatform(Platform.MAC);
