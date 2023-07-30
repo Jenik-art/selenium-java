@@ -1,6 +1,9 @@
 package Selenium.tests;
 
 import Selenium.page_object.*;
+import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -11,8 +14,9 @@ public class CheckoutPageTest extends TestBase {
     private static String incorrectEmail = "adsfdf@adsf.com";
     private static String correctPassword = "Test12345";
     private static String incorrectPassword = "adfadsf";
-
-
+    @Feature("Cart")
+    @Story("Success ordering")
+    @Description("Test of success ordering Yellow Duck")
     @Test
     public static void makeSuccessOrderingTest()  {
         String expectedText = "Your order is successfully completed!";
