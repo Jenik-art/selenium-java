@@ -43,7 +43,7 @@ public class WebDriverContainer {
         capabilities.setPlatform(Platform.MAC);
 
 
-        driver = new RemoteWebDriver(new URL("http://192.168.100.3:4444/wd/hub"), capabilities);
+        driver = new RemoteWebDriver(new URL("http://192.168.1.37:4444/wd/hub"), capabilities);
 
 
 //        driver = switch (browser){
