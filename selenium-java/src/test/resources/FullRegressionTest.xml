@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FullRegressionTest">
+    <test name="FullRegressionTest">
+        <classes>
+            <class name="Selenium.tests.LoginTest"/>
+            <class name="Selenium.tests.CatalogTest"/>
+            <class name="Selenium.tests.CheckoutPageTest"/>
+            <class name="Selenium.tests.DuckPageTest"/>
+        </classes>
+    </test>
+</suite>
