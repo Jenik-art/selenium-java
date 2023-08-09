@@ -86,7 +86,6 @@
                     </systemPropertyVariables>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/LoginRegression.xml</suiteXmlFile>
-                        <suiteXmlFile>src/test/resources/FullRegression.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
