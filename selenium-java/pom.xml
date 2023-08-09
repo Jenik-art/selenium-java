@@ -85,7 +85,6 @@
                         <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
                     </systemPropertyVariables>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/LoginTest</suiteXmlFile>
                         <suiteXmlFile>src/test/resources/FullRegressionTest</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
