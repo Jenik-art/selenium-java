@@ -194,7 +194,7 @@
             </build>
         </profile>
         <profile>
-            <id>FullRegression</id>
+            <id>FullRegressionTest</id>
             <build>
                 <plugins>
                     <plugin>
