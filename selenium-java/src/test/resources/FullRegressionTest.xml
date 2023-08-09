@@ -3,6 +3,9 @@
 <suite name="FullRegressionTest">
     <test name="FullRegressionTest">
         <classes>
+            <class name="Selenium.tests.LoginTest"/>
+            <class name="Selenium.tests.CatalogTest"/>
+            <class name="Selenium.tests.DuckPageTest"/>
             <class name="Selenium.tests.CheckoutPageTest"/>
         </classes>
     </test>
