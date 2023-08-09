@@ -186,7 +186,7 @@
                         <version>3.1.2</version>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>src/test/resources/LoginTest</suiteXmlFile>
+                                <suiteXmlFile>src/test/resources/LoginTest.xml</suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
@@ -203,7 +203,7 @@
                         <version>3.1.2</version>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>src/test/resources/FullRegressionTest</suiteXmlFile>
+                                <suiteXmlFile>src/test/resources/FullRegressionTest.xml</suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
